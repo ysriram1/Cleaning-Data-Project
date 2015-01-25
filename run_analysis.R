@@ -78,6 +78,5 @@ dataCast <- dcast(dataMelt, Activity_Name + Test_Subject ~  variable, mean)
 
 rm(ActivityNames_data, dataMelt)
 
-## Writing files to computer
-write.table(Converted_data, "./proj_data.txt", sep="\t")
+## Writing file to computer
 write.table(dataCast, "./proj_data_mean.txt", row.name=FALSE, sep="\t")
