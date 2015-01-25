@@ -10,9 +10,7 @@ Once the R code is run, it will automatically download the necessary files and o
 
 The purpose of the R code is to produce two output files. 
 -	The first file, called “proj_data.txt” neatly shows combined train and test data and with the correct column names with the test subject number and activity name rows. All the columns have been provided with descriptive names. This file only shows the mean and standard deviation feature variables.
--	The second file, “proj_data_mean.txt” summarizes the “proj_data.txt” to the mean values for every feature variable in the project_data.txt table.
-
-Both these files can be obtained in the “Output Files folder”.
+-	The second file, “proj_data_mean.txt” summarizes the “proj_data.txt” to the mean values for every feature variable in the project_data.txt table. This file can be found in the repository.
 
 Here is the basic functioning of this R Code:
 (Further details can be found in the Code itself)
