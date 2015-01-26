@@ -8,9 +8,9 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 Once the R code is run, it will automatically download the necessary files and output the final tidy data text files to the working directory.
 
-The purpose of the R code is to produce two output files. 
--	The first file, called “proj_data.txt” neatly shows combined train and test data and with the correct column names with the test subject number and activity name rows. All the columns have been provided with descriptive names. This file only shows the mean and standard deviation feature variables.
--	The second file, “proj_data_mean.txt” summarizes the “proj_data.txt” to the mean values for every feature variable in the project_data.txt table. This file can be found in the repository.
+The purpose of the R code is to produce a final output file: 
+-	At first a tidy dataset that neatly shows combined train and test data and with the correct column names with the test subject number and activity name rows is generated. All the columns have been provided with descriptive names. This dataset only shows the mean and standard deviation feature variables.
+-	Using this dataset, the final output file, “proj_data_mean.txt”, is created by summarizing the mean values for every feature variable in the previously created tidy dataset for each unique test subject and activity name. This file can be found in the repository.
 
 Here is the basic functioning of this R Code:
 (Further details can be found in the Code itself)
